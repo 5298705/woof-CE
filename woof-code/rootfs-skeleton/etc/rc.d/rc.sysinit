@@ -504,7 +504,7 @@ echo "MISC. SYSTEM SETUP"
 #syslogd -m 0
 #klogd
 
-echo -e "${DISTRO_NAME} Linux\n`uname -s` `uname -r` [`uname -m` arch]\n\n" > /etc/issue
+echo -e "${DISTRO_NAME} Linux\n\\s \\\r [\m arch]\n\l\n" > /etc/issue
 echo "1" > /proc/sys/net/ipv4/ip_dynaddr
 hostname -F /etc/hostname
 
